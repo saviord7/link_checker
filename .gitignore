@@ -1,0 +1,38 @@
+# Micromamba environment files
+.micromamba/
+envs/
+
+# Pytest cache and reports
+.pytest_cache
+pytest-report.log
+.coverage
+
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+
+# Python package build files
+dist/
+build/
+egg-info/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Miscellaneous
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# Pytest-specific files
+pytest.ini
+tox.ini
+
+# Python cache files
+__pycache__
+*.py[cod]
